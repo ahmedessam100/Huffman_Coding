@@ -105,10 +105,3 @@ def decompress(path, folder=0):
             output_file.write('\n')
     output_file.close()
     return generateMetrics(bytes, tree, finishTime - startTime, path, 1)
-
-
-
-
-
-
-
