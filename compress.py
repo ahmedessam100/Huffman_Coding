@@ -151,4 +151,3 @@ def writeCompressedFile(encodedText, compressionKeys, path, folder=0, folder_pat
         b.append(int(byte,2))
     pickle.dump(bytes(b), output, protocol=pickle.HIGHEST_PROTOCOL)
     output.close()
-    # print(compressionKeys)
