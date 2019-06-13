@@ -4,6 +4,7 @@ from .node import Node
 from bitstring import BitArray
 import pickle, os
 import deepdish
+
 def compress(path, folder=0):
     if folder == 1:
         first = 0
